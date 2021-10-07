@@ -7,11 +7,17 @@
                   <div class="col-12">
                       <img src="../assets/img/logo.png" alt="logo">
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 text-center">
                       <h5>the best table in town</h5>
                   </div>
-                  <div class="col-6">
+                  <div class="col-16">
                       <h1>fine dining experience </h1>
+                  </div>
+                  <div class="col-7">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ratione assumenda ad corrupti atque architecto ex impedit aperiam? Perspiciatis cum in unde recusandae blanditiis saepe alias maxime molestias aperiam dolorum!</p>
+                  </div>
+                  <div class="col-12">
+                      <button class="stile">explore the menu</button>
                   </div>
 
               </div>
@@ -50,8 +56,17 @@ h1{
     text-transform:uppercase;
     color: white;
     font-size: 80px;
-    
 }
+p{
+    color: white
+}
+.stile{
+    border: 2px solid white;
+    background-color: black;
+    text-transform:uppercase;
+    color: white;
+}
+    
 
 
 
