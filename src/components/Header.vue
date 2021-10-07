@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row">
               
-              <div class="col-5 sfondo">
+              <div class="col-5 p-0 sfondo">
                   <div class="col-12">
                       <img src="../assets/img/logo.png" alt="logo">
                   </div>
@@ -22,7 +22,7 @@
 
               </div>
 
-              <div class="col-7">
+              <div class="col-7 p-0">
                   <img class="img-sfondo" src="../assets/img/slider52x.jpg" alt="slider">
               </div>
 
@@ -47,6 +47,7 @@ export default {
 .sfondo{
     height: 600px;
     background-color: black;
+    
 }
 h5{
     text-transform:uppercase;
@@ -66,6 +67,7 @@ h5{
     text-transform:uppercase;
     color: white;
 }
+
     
     
     

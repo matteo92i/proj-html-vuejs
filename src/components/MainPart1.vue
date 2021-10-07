@@ -2,7 +2,7 @@
     <div>
         <div class="container-fluid">
             <div class="row mt-5">
-                <div class="col-6">
+                <div class="col-6 p-0">
                     <div class="col-9 mx-auto">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum accusamus eveniet aperiam error aliquid, assumenda dolore</p>
                     </div>
@@ -15,20 +15,20 @@
                     <div class="col-9 mx-auto">
                         <img class="img-firma" src="../assets/img/signature.jpg" alt="">
                     </div>
-
-
-
-                    
-
                 </div>
-                <div class="col-6">
+
+
+                <div class="col-6 p-0">
                     <div class="img-part-1">
                         <img class="center" src="../assets/img/info22x.jpg" alt="cuoco">
                     </div>
+                </div>
 
                     
-                </div>
             </div>
+
+                    
+
         </div>
     </div>
 </template>
