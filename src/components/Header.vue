@@ -7,10 +7,17 @@
                   <div class="col-12">
                       <img src="../assets/img/logo.png" alt="logo">
                   </div>
+                  <div class="col-12">
+                      <h5>the best table in town</h5>
+                  </div>
+                  <div class="col-6">
+                      <h1>fine dining experience </h1>
+                  </div>
+
               </div>
 
               <div class="col-7">
-                  <img class="img-fluid" src="../assets/img/slider52x.jpg" alt="slider">
+                  <img class="img-sfondo" src="../assets/img/slider52x.jpg" alt="slider">
               </div>
 
             </div>
@@ -27,10 +34,27 @@ export default {
 </script>
 
 <style lang="scss">
-
+.img-sfondo{
+    width: 100%;
+    height: 600px;
+}
 .sfondo{
-    height: 500px;
+    height: 600px;
     background-color: black;
 }
+h5{
+    text-transform:uppercase;
+    color: white;
+}
+h1{
+    text-transform:uppercase;
+    color: white;
+    font-size: 80px;
+    
+}
+
+
+
+
 
 </style>
