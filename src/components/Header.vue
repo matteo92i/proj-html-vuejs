@@ -7,16 +7,16 @@
                   <div class="col-12">
                       <img src="../assets/img/logo.png" alt="logo">
                   </div>
-                  <div class="col-7 mx-auto">
+                  <div class="col-8 mx-auto">
                       <h5>the best table in town</h5>
                   </div>
-                  <div class="col-7 mx-auto">
-                      <h1>fine dining experience </h1>
+                  <div class="col-8 mx-auto">
+                      <h1 class="h1-white">fine dining experience </h1>
                   </div>
-                  <div class="col-7 mx-auto">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ratione assumenda ad corrupti atque architecto ex impedit aperiam? Perspiciatis cum in unde recusandae blanditiis saepe alias maxime molestias aperiam dolorum!</p>
+                  <div class="col-8 mx-auto">
+                      <p class="p-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ratione assumenda ad corrupti atque architecto ex impedit aperiam? Perspiciatis cum in unde recusandae blanditiis saepe alias maxime molestias aperiam dolorum!</p>
                   </div>
-                  <div class="col-7 mx-auto">
+                  <div class="col-8 mx-auto">
                       <button class="stile">explore the menu</button>
                   </div>
 
@@ -52,12 +52,12 @@ h5{
     text-transform:uppercase;
     color: white;
 }
-h1{
+.h1-white{
     text-transform:uppercase;
     color: white;
-    font-size: 80px;
+    
 }
-p{
+.p-white{
     color: white
 }
 .stile{
