@@ -1,18 +1,18 @@
 <template>
     <div>
         <div class="container-fluid">
-            <div class="row mt-4">
+            <div class="row mt-5">
                 <div class="col-6">
-                    <div class="col-6 mx-auto">
+                    <div class="col-9 mx-auto">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum accusamus eveniet aperiam error aliquid, assumenda dolore</p>
                     </div>
-                    <div class="col-8 mx-auto">
+                    <div class="col-9 mx-auto mt-5 mb-4">
                         <h1>Food is our common ground, a universal expirience</h1>
                     </div>
-                    <div class="col-6 mx-auto">
+                    <div class="col-9 mx-auto mb-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad praesentium error assumenda!
                     </div>
-                    <div class="col-6 mx-auto">
+                    <div class="col-9 mx-auto">
                         <img class="img-firma" src="../assets/img/signature.jpg" alt="">
                     </div>
 
@@ -48,12 +48,11 @@ export default {
 }
 h1{
     text-transform:uppercase;
-    font-size: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
+    
+
 .img-firma{
-    width: 50%;
+    width: 30%;
     height: 100px;
 }
 
