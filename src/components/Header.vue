@@ -10,7 +10,7 @@
                   <div class="col-12 text-center">
                       <h5>the best table in town</h5>
                   </div>
-                  <div class="col-16">
+                  <div class="col-6">
                       <h1>fine dining experience </h1>
                   </div>
                   <div class="col-7">
@@ -66,6 +66,8 @@ p{
     text-transform:uppercase;
     color: white;
 }
+    
+    
     
 
 
