@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container-fluid">
-            <div class="row mt-5">
+            <div class="row mt-5 mb-5">
                 <div class="col-4">
                     <img class="img-fluid center-sushi" src="../assets/img/sushi-1.png" alt="sushi-1">
                     <h2>the best table in town</h2>
