@@ -20,10 +20,34 @@
                     </div>
                     
                 </div>
-                <div class="col-6"></div>
-                <div class="col-6">
-                    <img src="../assets/img/info12x.jpg" alt="info12x">
+                <div class="col-6 mt-4">
+                    <div class="info52">
+                        <div class="padding">
+                            <h5>meggy stewart</h5>
+                            <h1 class="h1-white">new york times</h1>
+                            <hr class="hr-white">
+                            <p class="p-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt fuga cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="stile-1">read full article</button>
+                        </div>
+                    </div>
                 </div>
+                        
+                <div class="col-6 mt-4">
+                    <div class="info12">
+                        <div class="padding">
+                            <h5>meggy stewart</h5>
+                            <h1 class="h1-white">new york times</h1>
+                            <hr class="hr-white">
+                            <p class="p-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt fuga cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="stile-1">read full article</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                    
+                    
+                    
             </div>
         </div>
     </div>
@@ -45,6 +69,32 @@ export default {
     margin-top: 150px;
     margin-right: 90px;
 }
+.info52{
+    background-image: url(../assets/img/info52x.jpg);
+    background-color: #cccccc; 
+    height: 700px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+}
+.padding{
+    padding-top: 150px;
+    padding-left:120px;
+    padding-right: 90px;
+}
+.info12{
+    background-image: url(../assets/img/info12x.jpg);
+    background-color: #cccccc; 
+    height: 700px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+
+}
+
+  
 
 
 
