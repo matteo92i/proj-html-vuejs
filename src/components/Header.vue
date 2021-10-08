@@ -16,7 +16,7 @@
 
             
                 <div class="col-7 p-0">
-                    <div class="banner-0">
+                    <div class="banner-0 d-flex justify-content-center">
                         <nav>
                             <ul>
                                 <li v-for="(element,index) in cerca" :key="index">
