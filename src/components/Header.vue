@@ -23,7 +23,16 @@
               </div>
 
               <div class="col-7 p-0">
-                  <img class="img-sfondo" src="../assets/img/slider52x.jpg" alt="slider">
+                  <div class="banner-0">
+                      <nav>
+                          <ul>
+                              <li v-for="(element,index) in cerca" :key="index">
+                                  <a :href="element.link">{{element.titolo}}</a>
+                              </li>
+
+                          </ul>
+                      </nav>
+                  </div>
               </div>
 
             </div>
@@ -34,12 +43,27 @@
 </template>
 
 <script>
+import cerca from "../datiJs/Navbar.js"
 export default {
+    data: function(){
+        return{
+            cerca: cerca,
+        }
+    }
     
 }
 </script>
 
 <style lang="scss">
+.banner-0{
+    background-image: url(../assets/img/slider52x.jpg);
+    background-color: #cccccc; 
+    height: 600px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+}
 .img-sfondo{
     width: 100%;
     height: 600px;
@@ -66,6 +90,9 @@ h5{
     background-color: black;
     text-transform:uppercase;
     color: white;
+}
+ul{
+    display: inline;
 }
 
     
