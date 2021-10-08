@@ -93,14 +93,29 @@ h5{
 }
 ul{
     display: inline;
+    list-style: none;
+}
+li{
+  float: left;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-    
-    
-    
-
-
+  
 
 
 
 </style>
+    
+    
+    
+
+
+
+
