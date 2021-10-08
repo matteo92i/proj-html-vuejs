@@ -8,6 +8,7 @@
         <MainPart6 />
         <MainPart7 />
         <MainPart8 />
+        <MainPart9 />
 
     </div>
 </template>
@@ -21,6 +22,7 @@ import MainPart5 from "./MainPart5.vue";
 import MainPart6 from "./MainPart6.vue";
 import MainPart7 from "./MainPart7.vue";
 import MainPart8 from "./MainPart8.vue";
+import MainPart9 from "./MainPart9.vue";
 
 export default {
 name: 'Main',
@@ -33,6 +35,7 @@ components: {
     MainPart6,
     MainPart7,
     MainPart8,
+    MainPart9,
 }
 
     
