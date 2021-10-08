@@ -11,14 +11,14 @@
 
                 <div class="col-4 p-0">
                     <div class="sfondo-2">
-                        <h2 class="h2-menu"></h2>
+                        <h2 class="h2-menu">Main Course</h2>
                         <Menu v-for="(element, index) in colazione" :key="index" :nome="element.nomePiatto" :prezzo="element.prezzo" :descrizione="element.descrizionePiatto"/>
                     </div>
                 </div>
 
                 <div class="col-4 p-0">
                     <div class="sfondo-1">
-                        <h1 class="h1-menu">hors d'oeuvres</h1>
+                        <h1 class="h1-menu">Desserts</h1>
                         <Menu v-for="(element, index) in cena" :key="index" :nome="element.nomePiatto" :prezzo="element.prezzo" :descrizione="element.descrizionePiatto"/>
                     </div>
                 </div>
@@ -48,67 +48,67 @@ export default {
         return{
             pranzo:[
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'ahi salmon nigiri',
+                    prezzo: 48,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'umi masu salad',
+                    prezzo: 21,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },                
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'Temaki with crab',
+                    prezzo: 32,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'california rolls',
+                    prezzo: 22,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
             ],
             colazione:[
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'Braised abalone',
+                    prezzo: 52,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'twice cooked pork',
+                    prezzo: 21,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },                
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'kung pao chicken',
+                    prezzo: 32,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'char siu & Sushis',
+                    prezzo: 48,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
             ],
             cena:[
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'chocolate ball cake',
+                    prezzo: 13,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'Lime pie with crust',
+                    prezzo: 14,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },                
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'Rasberry Pear cake',
+                    prezzo: 18,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
                 {
-                    nomePiatto:'Lasagne',
-                    prezzo: 40,
+                    nomePiatto:'cafè au lait',
+                    prezzo: 6,
                     descrizionePiatto:'ragu piselli e tanto altro'
                 },
             ]
