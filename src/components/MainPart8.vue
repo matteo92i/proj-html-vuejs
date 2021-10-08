@@ -1,164 +1,64 @@
 <template>
     <div>
-        <div class="container">
-            <div class="row mt-5">
-                <div class="col-4 p-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
                     <div class="sfondo-1">
                         <h1 class="h1-menu">hors d'oeuvres</h1>
-                        <div class="prezzo">
-                            <h3 class="h3-menu">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                        <Menu v-for="(element, index) in pranzo" :key="index" :nome="element.nomePiatto" :prezzo="element.prezzo" :descrizione="element.descrizionePiatto"/>
                     </div>
+
                 </div>
-
-                <div class="col-4 p-0">
-                    <div class="sfondo-2">
-                        <h1 class="h1-menu-2">hors d'oeuvres</h1>
-                        <div class="prezzo">
-                            <h3 class="h3-menu-2">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu-2">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu-2">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu-2">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu-2">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu-2">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu-2">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu-2">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-                    </div>
-                </div>
-
-                <div class="col-4 p-0">
-                    <div class="sfondo-1">
-                        <h1 class="h1-menu">hors d'oeuvres</h1>
-                        <div class="prezzo">
-                            <h3 class="h3-menu">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-
-                        <div class="prezzo">
-                            <h3 class="h3-menu">ahi salmon nigri</h3>
-                            <span>48$</span>
-                        </div>
-                        <p class="p-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-                    </div>
-                </div>
+                    
             </div>
         </div>
+
+
     </div>
 </template>
 
+
+
+
 <script>
+import Menu from "./Menu.vue"
 export default {
+    name:'MainPart8',
+
+    components: {
+        Menu,
+    },
+    data: function(){
+        return{
+            pranzo:[
+                {
+                    nomePiatto:'Lasagne',
+                    prezzo: 40,
+                    descrizionePiatto:'ragu piselli e tanto altro'
+                },
+                {
+                    nomePiatto:'Lasagne',
+                    prezzo: 40,
+                    descrizionePiatto:'ragu piselli e tanto altro'
+                },                
+                {
+                    nomePiatto:'Lasagne',
+                    prezzo: 40,
+                    descrizionePiatto:'ragu piselli e tanto altro'
+                },
+                {
+                    nomePiatto:'Lasagne',
+                    prezzo: 40,
+                    descrizionePiatto:'ragu piselli e tanto altro'
+                },
+            ]
+        }
+    }
     
 }
 </script>
 
 <style lang="scss">
-.sfondo-1{
-    margin-top: 60px ;
-    background-color: grey;
-    height: 700px;
-}
-.sfondo-2{
-    background-image: url(../assets/img/misc22x.jpg);
-    background-color: white;
-    
-    height: 700px; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    width: 100%;
-}
 
-    
-
-.prezzo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top:10px;
-    padding-bottom: 10px;
-}
-.h1-menu{
-    color: black;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px ;
-}
-.h1-menu-2{
-    color: white;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px ;
-    
-}
-
-.h3-menu{
-    color: black;
-}
-.h3-menu-2{
-    color: white;
-}
-    
-.p-menu{
-    color: black;
-    text-align: left;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-.p-menu-2{
-    color: white;
-    text-align: left;
-    margin-left: 60px;
-    margin-right: 60px;
-}
     
 </style>
