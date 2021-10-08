@@ -5,6 +5,7 @@
                 <div class="col-12 banner-2">
                     <div class="f-center">
                         <img src="../assets/img/logo.png" alt="logo">
+                        <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem libero, dolorum, totam fugit sed quisquam, recusandae adipisci architecto dicta iure.</p>
                     </div>
                 </div>
             </div>
@@ -29,5 +30,12 @@ export default {
     background-size: cover;
     width: 100%;
 }
+.f-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
 
 </style>
