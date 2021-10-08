@@ -1,19 +1,19 @@
 <template>
     <div>
+        <div class="prezzo">
+            <h3 class="h3-menu">{{nome}}</h3>
+            <span>{{prezzo}}</span>
+        </div>
+        <p class="p-menu">{{descrizione}}</p>
+    </div>
+        
+
+</template>
+
+
 
         
             
-            <div class="prezzo">
-                <h3 class="h3-menu">{{nome}}</h3>
-                <span>{{prezzo}}</span>
-            </div>
-            <p class="p-menu">{{descrizione}}</p>
-        
-
-
-
-    </div>
-</template>
 
 <script>
 export default {
@@ -24,21 +24,8 @@ export default {
 </script>
 
 <style lang="scss">
-.sfondo-1{
-    margin-top: 60px ;
-    background-color: grey;
-    height: 700px;
-}
-.sfondo-2{
-    background-image: url(../assets/img/misc22x.jpg);
-    background-color: white;
-    
-    height: 700px; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    width: 100%;
-}
+
+
 
     
 
@@ -51,19 +38,7 @@ export default {
     padding-top:10px;
     padding-bottom: 10px;
 }
-.h1-menu{
-    color: black;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px ;
-}
-.h1-menu-2{
-    color: white;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px ;
-    
-}
+
 
 .h3-menu{
     color: black;
