@@ -122,7 +122,7 @@ export default {
 <style lang="scss">
 .sfondo-1{
     margin-top: 90px ;
-    background-color: grey;
+    background-color: rgb(231, 226, 226);
     height: 700px;
 }
 .sfondo-2{
@@ -134,6 +134,7 @@ export default {
     background-repeat: no-repeat; 
     background-size: cover;
     width: 100%;
+    filter: brightness(10%);
 }
 .h1-menu{
     color: black;
