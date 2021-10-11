@@ -2,8 +2,8 @@
     <div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 banner mt-5">
-                    <h5 class="text-center">Kung Pang -- 32£</h5>
+                <div class="col-12 banner mt-5 d-flex align-items-end justify-content-center">
+                    <h5>Kung Pang -- 32£</h5>
                 </div>
             </div>
         </div>
